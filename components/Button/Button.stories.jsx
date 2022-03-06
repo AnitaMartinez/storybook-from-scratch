@@ -10,6 +10,7 @@ const Template = (args) => <Button {...args} />
 export const Primary = Template.bind({})
 Primary.args = {
     children: 'Button primary',
+    onClick: console.log(),
 }
 
 export const Secondary = Template.bind({})

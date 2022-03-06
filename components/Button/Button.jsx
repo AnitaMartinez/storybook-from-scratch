@@ -1,3 +1,5 @@
+
+import PropTypes from 'prop-types';
 import {
   Button as MaterialButton,
 } from '@mui/material';
@@ -25,6 +27,13 @@ const Button = ({
       {...otherProps}
     />
   );
+};
+
+Button.propTypes = {
+  size: PropTypes.string,
+  secondary: PropTypes.bool,
+  tertiary: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 export default Button;

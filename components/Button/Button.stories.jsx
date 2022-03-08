@@ -21,7 +21,7 @@ Secondary.args = {
 
 export const Tertiary = Template.bind({})
 Tertiary.args = {
-    children: 'Button secondary',
+    children: 'Button tertiary',
     tertiary: true,
 }
 
